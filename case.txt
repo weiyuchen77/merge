@@ -1,0 +1,18 @@
+Random random = new Random ();
+int i = random .Next (0,4);
+Console .WriteLine ();
+switch (i )
+{
+    case 0 :
+        Console.WriteLine("choco$50");
+        break ;
+    case 1 :
+        Console.WriteLine("soup$150");
+        break ;
+    case  2 :
+        Console.WriteLine("bread$99");
+        break ;
+    default :
+        Console.WriteLine("nope");
+        break ;
+}
